@@ -1,62 +1,87 @@
-
 <!DOCTYPE html>
 <html>
-<head>
-    <title>50 Cent</title>
-     <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-      <link rel="stylesheet" type="text/css" href="mystyle.css">
-</head>
-<body>
-
-       <nav class="navbar navbar-inverse">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="#">50 Cent</a>
-          </div>
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#"> Home</a></li>
-            <li><a href="#">Sein Leben</a></li>
-            <li><a href="#">Neuste Alben</a></li> 
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-          </ul>
-        </div>
-      </nav>
-      
-      
-        <div class="img">
-               <a target="_blank" href="fjords.jpg">
-                <img src="http://i2.mirror.co.uk/incoming/article6060471.ece/ALTERNATES/s615b/50-Cent.jpg" alt="Fjords" width="300" height="200">
-              </a>
-              <div class="desc">Most famous picture</div>
-            </div>
-
-            <div class="img">
-              <a target="_blank" href="forest.jpg">
-                <img src="https://i.ytimg.com/vi/UL1XLzec2vM/hqdefault.jpg" alt="Forest" width="300" height="200">
-              </a>
-              <div class="desc">First Photoshooting</div>
-            </div>
-
-            <div class="img">
-              <a target="_blank" href="lights.jpg">
-                <img src="https://upload.wikimedia.org/wikipedia/en/9/9c/Curtis_(50_Cent_album).jpg" alt="Northern Lights" width="300" height="200">
-              </a>
-              <div class="desc">Mother Fucker</div>
-            </div>
-
-            <div class="img">
-              <a target="_blank" href="mountains.jpg">
-                <img src="http://a4.mzstatic.com/us/r30/Music4/v4/00/b6/73/00b6734a-ef2d-c8bb-760a-cfa541cb0510/cover170x170.jpeg" alt="Mountains" width="300" height="200">
-              </a>
-             <div class="desc">9 Shots</div>
-        </div>
-
-</body>
+	<head>
+		<title>Home | League of Legends</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!--Bootstrap CSS-->
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<!--Own CSS-->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<!--Favicon-->
+		<link rel="icon" href="pics/favicon.png"  type="image/png">		
+		<!--JavaScrip-->
+		<script type="text/javascript" src="js/boostrap.js"></script>
+		<script type="text/javascript" src="js/npm.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<!--Own JS-->
+		<script src="js/script.js"></script>
+	</head>
+	<body>
+		<!-- Navbar -->
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>                        
+					</button>
+					<a class="navbar-brand" href="index.html#">
+						<img id="logoheight" src="pics/logo.png" alt="logo"/>
+					</a>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<a href="items.html">Beste Items</a>
+						</li>
+						<li>
+							<a href="game.html">Maps</a>
+						</li>
+						<li>
+							<a href="https://signup.leagueoflegends.com/de/signup/redownload">Downloads</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!--End Navbar-->
+		<!-- Jumbotron -->
+		<div class="jumbotron">
+			<div class="container">
+				<img src="pics/logo.png" alt="logo"/>
+			</div>
+		</div>
+		<!--End Jumbotron-->
+		<!--Content Bar-->
+		<div class="container-fluid">
+			<div class="row rowgrey">
+				<div class="container">
+					<a href="items.html">
+						<div class="col-md-4">
+							<img class="interactions" src="pics/items.png" alt="items"/>
+							<h1>Beste Items</h1>
+							<p>Hier finden Sie eine Liste der Besten League of Legends Items </p>
+						</div>
+					</a>
+					<a href="game.html">
+						<div class="col-md-4">
+							<img class="interactions" src="pics/map.png" alt="maps"/>
+							<h1>Maps</h1>
+							<p>Hier finden Sie eine Liste der League of Legends Maps</p>
+						</div>
+					</a>
+					<a href="https://signup.leagueoflegends.com/de/signup/redownload">
+						<div class="col-md-4">
+							<img class="interactions" src="pics/downloads.png" alt="downloads"/>
+							<h1>Downloads</h1>
+							<p>Hier finden Sie die neuste Version von League of Legends zum Download</p>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+		<!--End Content Bar-->
+	</body>
 </html>
