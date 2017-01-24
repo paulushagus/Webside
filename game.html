@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Maps | League of Legends</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!--Bootstrap CSS-->
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<!--Own CSS-->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<!--Favicon-->
+		<link rel="icon" href="pics/favicon.png"  type="image/png">	
+		<!--JavaScript-->
+		<script type="text/javascript" src="js/boostrap.js"></script>
+		<script type="text/javascript" src="js/npm.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<!--Own JS-->
+		<script src="js/script.js"></script>
+	</head>
+	<body>
+		<!-- Navbar -->
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>                        
+					</button>
+					<a class="navbar-brand" href="index.html#">
+						<img id="logoheight" src="pics/logo.png" alt="logo"/>
+					</a>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<a href="items.html">Beste Items</a>
+						</li>
+						<li>
+							<a id="aktiv" href="game.html">Maps</a>
+						</li>
+						<li>
+							<a href="https://signup.leagueoflegends.com/de/signup/redownload">Downloads</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!--End Navbar-->
+		<!--Jumbotron-->
+		<div class="jumbotron">
+			<div class="container">
+				<img src="pics/logo.png" alt="logo"/>
+			</div>
+		</div>
+		<!--End Jumbotron-->
+		<!--Content Bar-->
+		<div class="container-fluid">
+			<div class="row rowgrey">
+				<div class="container">
+					<div class="col-md-4 col-md-offset-4">
+						<img class="interactions" src="pics/map.png" alt="maps"/>
+						<h1>Maps</h1>
+						<p>Hier finden Sie eine Liste der League of Legends Maps</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--End Content Bar-->
+		<!--Container-->
+		<div class="container">
+			<div class="row">
+				<!--vertical bar-->
+				<div class="col-md-2 margin">
+					<ul class="nav nav-pills nav-stacked nav-default">
+						<li class="active"><a data-toggle="pill" href="#kluft"> Kluft der Beschw.</a></li>
+						<li><a data-toggle="pill" href="#wald">Gewundener Wald</a></li>
+						<li><a data-toggle="pill" href="#schlucht">Heulende Schlucht</a></li>
+						<li><a data-toggle="pill" href="#narbe">Kristallnarbe</a></li>
+					</ul>
+				</div>
+				<!--End vertical bar-->
+				<!--Content-->
+				<div class="col-md-8 col-md-offset-2">
+					<div class="tab-content piccenter">
+						<div id="kluft" class="tab-pane fade in active">
+							<img class="games" src="pics/Games/kluft.jpg" alt="kluft"/>
+							<p class="jumbo col-md-8 col-md-offset-2">Für die Mehrzahl der Spieler bleibt das Flaggschiff unter den Richtfeldern von League of Legends, die Kluft der Beschwörer, die Karte ihrer Wahl. Zwei Teams von je fünf Champions kämpfen auf drei Lanes und in einem ausgedehnten Dschungelareal mit mächtigen Verbesserungen und wichtigen neutralen Zielen. Eine lange Anfangsphase und groß angelegte Teamkämpfe sind für dieses Richtfeld charakteristisch.</p>
+						</div>
+						<div id="wald" class="tab-pane fade">
+							<img class="games" src="pics/Games/wald.jpg" alt="wald"/>
+							<p class="jumbo col-md-8 col-md-offset-2">Das zweite zu League of Legends hinzugefügte Richtfeld, der Gewundene Wald, besteht aus zwei Lanes und Teams von drei Champions. Die Champions beginnen das Spiel mit mehr Startgold als in der Kluft der Beschwörer und so entspinnen sich früh Auseinandersetzungen und konstante Teamkämpfe. Ein einzelner, im Zentrum gelegener Dschungel zwischen den Lanes birgt eroberbare Altäre, die zum Kampf um neutrale Ziele und fortlaufende Angriffe aus dem Hinterhalt animieren.</p>
+						</div>
+						<div id="schlucht" class="tab-pane fade">
+							<img class="games" src="pics/Games/schlucht.jpg" alt="schlucht"/>
+							<p class="jumbo col-md-8 col-md-offset-2">Als einziges Richtfeld in League of Legends, das nur über eine einzige Lane verfügt, sind in der Heulenden Schlucht zwei Basen am jeweiligen Ende der Brücke angeordnet. Diese Brücke wird von zwei Türmen und einem Inhibitor verteidigt, während der Nexus von einem Paar Türmen beschützt wird. Ohne neutrales Gebiet, das vom Hauptfokus ablenken könnte, kann man in der Heulenden Schlucht einige der häufigsten und intensivsten Teamkämpfe insgesamt erleben.</p>
+						</div>
+						<div id="narbe" class="tab-pane fade">	
+							<img class="games" src="pics/Games/narbe.jpg" alt="narbe"/>
+							<p class="jumbo col-md-8 col-md-offset-2">Die Hauptkarte des Dominion-Spielmodus, Kristallnarbe, verfügt über fünf Kontrollpunkte, die kreisförmig um eine mächtige Teamverbesserung angeordnet sind. Champions beginnen das Spiel auf Stufe 3 und steigern im Spielverlauf schnell Stufen und Goldmenge. Kleinere Gefechte und viele Tötungen sind markant für dieses temporeiche Richtfeld.</p>
+						</div>
+					</div>
+				</div>
+				<!--End Content-->
+			</div>
+		</div>
+		<!--End Container-->
+	</body>
+</html>
